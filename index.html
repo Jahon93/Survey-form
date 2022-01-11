@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for filling up the form</p>
+    </header>
+
+    <section>
+        
+        <form id="survey-form">
+            <!--Name-->
+            <div class="box">
+                <label for="name" id="name" class="form-label" value="text">Name</label>
+                <input type="text" id="name-label" class="input-form" placeholder="Enter you name" required>
+            </div>
+            
+            <!--Email-->
+            <div class="box">
+                <label for="email" id="email" class="form-label" value="email">Email</label>
+                <input type="email" id="email-label" class="input-form" placeholder="Enter you Email" required>
+            </div>
+
+            <!--Age-->
+            <div class="box">
+                <label for="age" id="number" class="form-label" value="number">Age <span class="small">(optional)</span></label>
+                <input type="number" id="number-label" class="input-form" placeholder="Enter your Age"  min="1"
+                max="100" required>
+            </div>
+            <!--Dropdown career input-->
+            <div class="box">
+                <p>Which option best describes your position?</p>
+            <select class="form-select input-form" name="role" id = "dropdown">
+                <option value="" selected disabled>Select current role</option>
+                <option value=" ">Student</option>
+                <option value=" ">Teacher</option>
+                <option value=" ">Developer</option>
+                <option value=" ">Scientist</option>
+                <option value=" ">Doctor</option>
+                <option value=" ">Other</option>
+            </select>
+            </div>
+            <!--Radio input-->
+            <div class="box">
+                <p>Would you recommend to learn Software Development</p>
+                <div>
+                    <input type="radio" value="sure" name="recommend">
+                    <label for="radio">Sure</label>
+                </div>    
+            
+                <div>
+                    <input type="radio" value="no " name="recommend">
+                    <label for="radio">No, it's difficult</label>
+                </div>
+                <div>
+                    <input type="radio" value="dontknow" name="recommend">
+                    <label for="radio">Don't know</label>
+            </div>
+            </div>
+           <!--Option input-->
+           <div class="box">
+            <p>What is the best way of learning</p>
+            <select class="form-select input-form" name="role" id = "dropdown"><option value="" selected disabled>Select an Option</option>
+             <option value="">By Book</option>
+             <option value="">By Video</option>
+             <option value="">By Teacher</option>
+             <option value="">Self-study</option>
+             <option value="">In a group</option></select>
+           </div>
+
+            <!--Checkbox-->
+           <div class="box">
+               <p>What would you like to learn? <spa>(check multiple choices)</spa></p>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Frontend Development</label>
+               </div>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Backend Development</label>
+               </div>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Artificial Intelligence</label>
+               </div>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Data Science</label>
+               </div>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Blockchain</label>
+               </div>
+               <div>
+                <input type="checkbox" name="frontend" value="frontend">
+                <label for="frontend">Other</label>
+               </div>
+           </div>
+
+            <!--Textarea-->
+           <div class="box">
+               <p>Do you have any questions/comments?</p>
+               <textarea class="form-textarea input-form" placeholder="text here"></textarea>
+           </div>
+           <button class="btn" id="submit" type="submit" value="submit" onclick="http://127.0.0.1:5555/.href='iskanarovjahongir@gmail.com">Submit</button>
+        </form>
+    
+    </section>
+
+
+
+    <script src="./index.js">
+     
+    </script>
+</body>
+</html>
+

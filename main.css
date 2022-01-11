@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(113deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://images.theconversation.com/files/406535/original/file-20210615-25-1n8zgkp.jpg?ixlib=rb-1.1.0&rect=0%2C7%2C5125%2C3398&q=45&auto=format&w=926&fit=clip);
+    /* background-color: #58587e; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    letter-spacing: .8px;
+    
+}
+header {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+section {
+    display: flex;
+    justify-content: center;
+    
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#survey-form {
+    border-radius: 10px;
+    background-color: #22223a;
+    color: rgb(235, 234, 240);
+    width: 80%;
+    padding: 16px 10px 16px 10px;
+    margin-bottom: 2rem;
+    
+    
+}
+.box {
+    margin-bottom: 1rem;;
+}
+
+.input-form {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.form-label {
+    display: block;
+}
+.form-textarea {
+    height: 70px;
+    padding: 5px 0 0 5px;
+}
+button {
+    width: 100%;
+    height: 2.3rem;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background: #2b2b50;
+    color: #fff;
+    font-size: 1.3rem;   
+}
+button:hover,
+button:focus {
+    color: #2b2b50;
+    background: #fff;
+    -moz-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
